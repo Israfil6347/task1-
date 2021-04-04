@@ -1,0 +1,86 @@
+#fasthead{
+    height: 30px;
+    background-color: #3ABDFB;
+    color: #F3FDFF;
+
+}
+.head1 ul li{
+    float:left ;
+    margin-left: 5px;
+    margin-left: 20px;
+}
+.user{
+    float: right;
+}
+#navbarNav{
+    float: right;
+}
+#head2{
+    height: 60px;
+    background-color: #3ABDFB;
+    color: #F3FDFF;
+}
+#footer1{
+    height: 80px;
+    background-color: #EEEEEE;
+    color: #3ABDFB;
+
+}
+#contact{
+    height: 160px;
+    background-color: #F8F9FA;
+
+}
+#copyright{
+    height: 30px;
+    background-color: #292A2C;
+    color: #F3FDFF;
+}
+#copyright a{
+    color: #F3FDFF;
+    text-decoration: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    float:left;
+
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.sidebar ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
